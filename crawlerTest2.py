@@ -11,27 +11,6 @@ driver = webdriver.Chrome()
 driver.get(path)
 time.sleep(1)
 
-# cloth1 = driver.find_element(By.XPATH,'//*[@id="commonLayoutContainer"]/main/div/div[3]/div/div/div/div[1]/div/div[3]/div[1]/div')
-# cloth1.execute_script("arguments[0].click();", cloth1)
-
-# ID = '__next'
-# element = driver.find_elements(By.ID, ID)
-# print(element)
-
-# ///////////////////////////////////////////////////////////////////
-# # 페이지 다운 버튼으로 내리고 elements 찾음
-# # 2개만 동시에 로딩되어있지만 len은 1로, 내용은 2개 전부 나옴
-# cnt = 5
-# for _ in range(cnt):
-#     driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.PAGE_DOWN)
-#     time.sleep(1)
-#
-# xpath = '//*[@id="commonLayoutContainer"]/main/div/div[3]/div/div/div'
-# elements = driver.find_elements(By.XPATH, xpath)
-# print(elements)
-# print(len(elements))
-# for i in range(len(elements)):
-#     print(elements[i].text)
 
 print()
 print('////////////////////////////////////////')
