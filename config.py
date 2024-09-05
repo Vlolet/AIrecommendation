@@ -1,6 +1,7 @@
 class config:
-    ROOT_FOLDER = './'
-    SRC_FOLDER = ROOT_FOLDER + 'src/'
+    ROOT_DIR = './'
+    SRC_DIR = ROOT_DIR + 'src/'
+    IMAGE_PATH = SRC_DIR + 'image'
 
     BATCH_SIZE = 32
     N_EPOCHS = 30

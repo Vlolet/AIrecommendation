@@ -1,6 +1,12 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 import random
+
+import cv2
+import shutil
+import tqdm
+import glob
 
 import torch
 from torch import nn
@@ -22,3 +28,7 @@ CONFIG = config.config()
 import data
 cdataset = data.customDataset()
 cdataset.hello()
+
+from ultralytics import YOLO
+detection model = YOLO("yolov9e-seg.pt")
+

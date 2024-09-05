@@ -35,3 +35,8 @@ output:
  옷 인식 모델(패션추천모델 전처리 & 이미지 업로드 용도)
  Classification : 사물 하나의 종류를 분류
  Object Detection : 다양한 사물이 있을 때 경계박스로 위치와 종류를 분류
+
+
+ https://alphalog.co.kr/319
+ https://kuklife.tistory.com/123
+ https://www.kaggle.com/code/youssifhassan/train-yolov9-in-custom-dataset
